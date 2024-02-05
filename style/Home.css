@@ -1,0 +1,189 @@
+.containerHeader {
+    display: flex;
+    width: 100%;
+    padding: 2rem 0;
+    text-shadow: black 0.1rem 0.1rem 0.6em;
+}
+
+@media (max-width: 900px) {
+    .containerHeader {
+        display: block;
+    }
+}
+
+@media (max-width: 628px) {
+    .containerHeader {
+        text-align: center;
+    }
+}
+
+.menu a {
+    text-decoration: none;
+    color: #BB9666;
+    font-size: 4rem;
+}
+
+@media (max-width: 628px) {
+    .menu a {
+        font-size: 2rem;
+    }
+}
+
+
+.headerContent {
+    max-width: 45%;
+}
+
+@media (max-width: 900px) {
+    .headerContent {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+.contentMain {
+    font-size: 30px;
+    font-family: "Galano Classic", Sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+.contentMain > span {
+    color: #BB9666;
+}
+.content {
+    font-size: 18px;
+    font-family: "Galano Classic", Sans-serif;
+    color: #8B8B8B;
+    font-weight: 400;
+    max-width: 94%;
+}
+
+@media (max-width: 628px) {
+    .content {
+        margin: unset auto;
+    }
+}
+
+.headerImage {
+    max-width: 308px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.headerImage img {
+    max-width: 308px;
+}
+
+h3 {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.topicSection {
+    display: flex;
+    margin: 16px 0 90px;
+}
+
+@media (max-width: 900px) {
+    .topicSection {
+        display: block;
+    }
+}
+
+@media (max-width: 900px) {
+    .topicSection {
+        text-align: center;
+    }
+}
+
+.topicSection.brain {
+    background: black;
+    padding: 36px;
+}
+
+.topicSection img {
+    max-width: 360px;
+    height: auto;
+    margin: 0 20px 0 0;
+}
+
+@media (max-width: 900px) {
+    .topicSection img {
+        float: left;
+        width: 100%;
+    }
+}
+
+@media (max-width: 728px) {
+    .topicSection img {
+        float: none;
+        margin: 26px auto;
+    }
+}
+
+.topicSection .imageRight {
+    margin: 0 0 0 20px;
+}
+
+@media (max-width: 900px) {
+    .topicSection .imageRight {
+        float: none;
+    }
+}
+
+.topicSection h1 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.3em;
+    margin-top: 0;
+}
+
+.btnComprar {
+    font-family: "Galano Classic", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #100F0F;
+    background-color: #BB9666;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 76px 84px 10px rgba(198.00000000000003, 156.00000000000009, 108.00000000000001, 0.23);
+    padding: 25px 86px;
+    cursor: pointer;
+    transition: transform .25s linear,-webkit-transform .25s linear;
+
+    text-decoration: none;
+    text-shadow: none;
+    display: flex;
+    width: fit-content;
+}
+
+.btnComprar:hover {
+    transform: scale(1.02);
+}
+
+
+@media (max-width: 600px) {
+    h3 {
+        display: none;
+    }
+
+    .tituloHome {
+        margin: 0;
+    }
+
+    .menuDiv {
+        display: none;
+    }
+
+    .jornada {
+        width: 22rem;
+    }
+    .btnComprar {
+        margin: auto;
+    }
+}
+
+.ebook-logo {
+    max-width: 180px;
+}
